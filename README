@@ -12,7 +12,7 @@ Noodles ahh's video services, since bink sucks
 
 
 Current goals for RTB Source:
-update it so it works on macOS (arm64) using the preexisting arm64 builds of Source 2013's executables (maybe)
+get it to work on macOS (maybe?)
 (Verified) Steam deck support for all games using the branch (as in this branch of the Source Engine)
 
 Mapbase readme is below
