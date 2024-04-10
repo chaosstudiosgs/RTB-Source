@@ -8,12 +8,13 @@
 This repo contains the source code to RTB Source, RTB Source is based on mapbase and uses the following (3rd party) libraries:
 
 (LIBRARY)                     (REASON)
-Noodles ahh's video services, since bink sucks
+Noodles ahh's video services, bink isn't good for these days
 
 
 Current goals for RTB Source:
 get it to work on macOS (maybe?)
 (Verified) Steam deck support for all games using the branch (as in this branch of the Source Engine)
+Be lightweight (so long ey bink video!)
 
 Mapbase readme is below
 
