@@ -889,9 +889,12 @@ int CHLClient::Init( CreateInterfaceFn appSystemFactory, CreateInterfaceFn physi
 	ConnectTier2Libraries( &appSystemFactory, 1 );
 	ConnectTier3Libraries( &appSystemFactory, 1 );
 
-#ifndef NO_STEAM
+//#ifndef NO_STEAM
+        if ( !CommandLine()->CheckParm( "-nosteam") )
+        {
 	ClientSteamContext().Activate();
-#endif
+}
+//#endif
 
 	// We aren't happy unless we get all of our interfaces.
 	// please don't collapse this into one monolithic boolean expression (impossible to debug)
